@@ -275,7 +275,9 @@ footer{
 footer .footer{
     display: flex;
     padding: 10px;
-    justify-self:center;   
+    justify-self:center; 
+    list-style: none;
+  
 }
 footer .footer a{
    padding: 10px;
@@ -307,6 +309,85 @@ footer .footer a{
     color: black !important;
 
    }
+    .HeroSection {
+        height: 80vh;
+    }
+   .HeroSection .content {
+    padding: 10px 10px;
+    padding-left: 30px;
+    width: 300px;
+    height: 340px;
+    background-color: #c89dc365;
+    align-items: center;
+    position: absolute;
+    margin: 10px;
+}
+.content h1 {
+    font-size: 40px;
+}
+.content p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.boxes {
+    padding: 10px;
+    margin: 10px 0;
+    display: block;
+}
+.box {
+    margin: 30px;
+    padding: 25px;
+    width: 230px;
+    height: 220px;
+}
+.ideal {
+    padding: 30px;}
 
+.ideal p {
+    font-weight: 400;
+    padding: 10px;
+    padding-bottom: 20px;
+
+
+}
+.content .buttton, .ideal .buttton {
+    margin: 5px;
+}
+.play {
+     border-radius:0;
+     margin: 0%;
+}
+.play .text, .play .icn {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.btnsection .btnbg {
+    margin: 20px;}
+
+.formsec {
+    display: block
+}
+.form {
+    padding: 30px;
+    margin-top: 20px;
+}
+.boxes2 #b1, .boxes2 #b3, .boxes2 #b2{
+    border-radius: 15px;
+    margin-left: 20px;
+    margin: 40px;
+}
+.form .inputs input, textarea {
+    width: 250px;
+}
+footer .footer{
+    display: block;
+    list-style: none;
+    padding: 20px;
+}
+footer .footer li{
+    padding: 5px;
+    text-align: center;
+}
 
 }
